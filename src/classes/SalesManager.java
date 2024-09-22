@@ -20,7 +20,7 @@ public class SalesManager extends SalesRep{
 	public double calculateComission() {
 		double totalSales = 0;
 		if(salesTeam.isEmpty()) {
-			System.out.println("no es parte del equipo de ventas");
+			System.out.println("sin ventas");
 			return 0;
 		}
 		for (SalesRep salesRep : salesTeam.values()) {
